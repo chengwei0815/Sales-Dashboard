@@ -1,6 +1,8 @@
-# Sales-Dashboard
+# Sales and Customer Dashboard
 
 ![Image Alt](https://github.com/chengwei0815/Sales-Dashboard/blob/main/demo-1.png?raw=true)
+
+![Image Alt](https://github.com/chengwei0815/Sales-Dashboard/blob/bec10b40900d1541f5bbd09741da565d4bd6aa1f/demo-4.png)
 
 ![Image Alt](https://github.com/chengwei0815/Sales-Dashboard/blob/68812d96971ccf39165081c3236a2fea3a95dd81/demo-2.png)
 
