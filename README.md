@@ -1,4 +1,5 @@
-# Sales and Customer Dashboard
+# Sales & Customer Dashboards (Dynamic)
+
 
 ![Image Alt](https://github.com/chengwei0815/Sales-Dashboard/blob/main/demo-1.png?raw=true)
 
