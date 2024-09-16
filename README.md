@@ -70,3 +70,6 @@ Dashboard Dynamic
 Data Filters
 
 Allow users to filter data by product information like category and subcategory and by location information like region, state and city.
+
+**Direct Link:**
+https://public.tableau.com/app/profile/wei.cheng7743/viz/SalesCustomerDashboardsDynamic_17264910275710/SalesDashboard
