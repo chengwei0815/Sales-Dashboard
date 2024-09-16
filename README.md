@@ -1,8 +1,11 @@
 # Sales-Dashboard
 
-## Demo:
-
 ![Image Alt](https://github.com/chengwei0815/Sales-Dashboard/blob/main/demo-1.png?raw=true)
+
+![Image Alt](https://github.com/chengwei0815/Sales-Dashboard/blob/68812d96971ccf39165081c3236a2fea3a95dd81/demo-2.png)
+
+![Image Alt](https://github.com/chengwei0815/Sales-Dashboard/blob/68812d96971ccf39165081c3236a2fea3a95dd81/demo-3.png)
+
 # Tableau User Story | Sales Performance
 
 ## Intorduction
