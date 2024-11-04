@@ -1,83 +1,85 @@
-# Sales & Customer Performance Dashboards
+# Sales and Customer Dashboard
+# Sales & Customer Dashboards (Dynamic)
 
-## Overview
 
-This repository contains two Tableau dashboards designed to support sales managers, executives, and marketing teams in analyzing sales performance and customer behavior. These dashboards provide insights into year-over-year trends, KPIs, and customer data, enabling data-driven decision-making to enhance sales strategies and customer engagement.
+![Image Alt](https://github.com/chengwei0815/Sales-Dashboard/blob/main/demo-1.png?raw=true)
 
----
+![Image Alt](https://github.com/chengwei0815/Sales-Dashboard/blob/bec10b40900d1541f5bbd09741da565d4bd6aa1f/demo-4.png)
 
-## Dashboards
+![Image Alt](https://github.com/chengwei0815/Sales-Dashboard/blob/68812d96971ccf39165081c3236a2fea3a95dd81/demo-2.png)
 
-### 1. Sales Dashboard
+![Image Alt](https://github.com/chengwei0815/Sales-Dashboard/blob/68812d96971ccf39165081c3236a2fea3a95dd81/demo-3.png)
 
-#### Purpose
-The Sales Dashboard provides a comprehensive overview of sales metrics and trends, allowing users to assess performance across different timeframes and product categories.
+# Tableau User Story | Sales Performance
 
-#### Key Features
-- **KPI Overview:** Displays a summary of total sales, profits, and quantities sold for the current and previous years.
-- **Sales Trends:** Monthly trends for each KPI (sales, profit, and quantity) for both years, with highlights for the months with the highest and lowest sales.
-- **Product Subcategory Comparison:** Compares performance across product subcategories for the current and previous years, with a focus on both sales and profit.
-- **Weekly Trends for Sales & Profit:** Weekly data for sales and profit in the current year, showing average weekly values and highlighting weeks that are above and below average.
+## Intorduction
+This user story outlines the specifications for building two dashboards using tableau to help stakeholders, including sales managers and executives to analyze sales performance and customers. 
 
----
+## Sales Dashboard | Requirements
+**Dashboard Purpose**
+The purpose of sales dashboard is to present an overview of the sales metrics and trends in order to analyze year-over-year sales performance and understand sales trends.
 
-### 2. Customer Dashboard
+**Key Requirements**
+KPI Overview
+Display a summary of total sales, profits and quantity for the current year and the previous year.
 
-#### Purpose
-The Customer Dashboard provides insights into customer activity, segmentation, and engagement. This dashboard is designed to help marketing teams and management understand customer trends and improve satisfaction.
+Sales Trends
 
-#### Key Features
-- **KPI Overview:** Summarizes the total number of customers, sales per customer, and total orders for the current and previous years.
-- **Customer Trends:** Monthly data for each customer KPI for both years, with emphasis on months with peak and low sales.
-- **Customer Distribution by Number of Orders:** Visualizes customer distribution based on order frequency, providing insights into loyalty and engagement.
-- **Top 10 Customers by Profit:** Highlights the top 10 customers by profit, showing additional data like rank, number of orders, current sales, current profit, and last order date.
+ – Present the data for each KPI on a monthly basis for both the current year and the previous year.
 
----
+ – Identify months with highest and lowest sales and make them easy to recognize.
 
-## Design & Interactivity
+Product Subcategory Comparison
 
-- **Dynamic Dashboard:** Enables users to select any desired year to view historical data, facilitating flexible analysis across time periods.
-- **Navigation & Interactivity:** Includes intuitive navigation between dashboards and interactive charts that allow data filtering directly within the dashboard.
-- **Data Filters:** Allows filtering by product information (category and subcategory) and location (region, state, city) for targeted insights.
+ – Compare sales performance by different product subcategories for the current year and the previous year.
 
----
+ – Include a comparison of sales with profit.
 
-## Getting Started
+Weekly Trends for Sales & Profit
 
-### Prerequisites
-- **Tableau Desktop** or **Tableau Public** is required to open and interact with the Tableau workbook files.
-- **Data Source:** Ensure the data source format aligns with product and customer fields as outlined in this README.
+ – Present weekly sales and profit data for the current year.
 
-### Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/sales-customer-performance-dashboards.git
-   
-2. Open the Tableau file Sales_Customer_Performance.twbx in Tableau.
+ – Display the average weekly values.
 
----
+ – Highlight weeks that are above and below the average to draw attention to sales & profit performance.
 
-## Future Enhancements
 
-To further improve the utility and depth of these dashboards, future updates may include:
+## Customer Dashboard | Requirements
+**Dashboard Purpose**
+The customer dashboard aims to provide an overview of customer data, trends and behaviors. It will help marketing teams and management to understand customer segments and improve customer satisfaction.
 
-1. **Advanced Customer Segmentation:** Add segmentation features based on demographic data or buying patterns for more targeted insights.
-2. **Real-Time Data Integration:** Implement real-time data updates to reflect live performance metrics, especially for sales KPIs.
-3. **Predictive Analysis Features:** Integrate predictive modeling to forecast sales trends and customer behavior, aiding proactive decision-making.
-4. **Additional Filters:** Add more granular filtering options, such as customer lifetime value (CLV) and purchase frequency for in-depth analysis.
+**Key Requirements**
+KPI Overview
+Display a summary of total number of customers , total sales per customer and total number of orders for the current year and the previous year.
 
----
+Customer Trends
 
-## Contributing
+ – Present the data for each KPI on a monthly basis for both the current year and the previous year.
 
-We welcome contributions to enhance and expand these dashboards. To contribute:
+ – Identify months with highest and lowest sales and make them easy to recognize.
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit and push your changes to your branch.
-4. Submit a pull request with a detailed description of your updates.
+Customer Distribution by Number of Orders
 
-For larger changes, please open an issue first to discuss your proposed ideas.
+Represent the distribution of customers based on the number of orders they have placed to provide insights into customer behavior, loyalty and engagement.
 
----
+Top 10 Customers By Profit
 
+ – Present the top 10 customers who have generated the highest profits for the company.
+
+ – Show additional information like rank, number of orders, current sales, current profit and the last order date.
+
+## Design & Interactivity Requirements
+Dashboard Dynamic
+
+ – The Dashboard should allow users to check historical data by offering them the flexibility to select any desired year.
+
+ – Provide users with the ability to navigate between the dashboards easily.
+
+ – Make the charts and graphs interactive, enabling users to filter data using the charts.
+
+Data Filters
+
+Allow users to filter data by product information like category and subcategory and by location information like region, state and city.
+
+**Direct Link:**
+https://public.tableau.com/app/profile/wei.cheng7743/viz/SalesCustomerDashboardsDynamic_17264910275710/SalesDashboard
